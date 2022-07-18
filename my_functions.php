@@ -35,7 +35,7 @@
 // DZ 1
 function dz1($array){
     foreach ($array as $key => $value){
-        $array[$key] = $value * 3;
+        $array[$key] = $value * $value * $value;
     }
     return $array;
 }
